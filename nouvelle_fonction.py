@@ -1,6 +1,8 @@
 p = 12
 b=0
+c=b+2
 for i in range (5) :
 	p+=1
 	b=p*p-p
-return b
+	c+=b
+return c
